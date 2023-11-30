@@ -63,12 +63,6 @@ jobs:
         source_branch: main
         destination_branch: ${{ secrets.INTERMEDIATE_BRANCH }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
-    - uses: ocpdude/pull-request@main
-      name: Create pull request
-      with:
-        source_branch: ${{ secrets.INTERMEDIATE_BRANCH }}
-        destination_branch: main
-        github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 ### Step 3. Watch the pull requests roll in!
