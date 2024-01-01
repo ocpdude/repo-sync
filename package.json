@@ -8,7 +8,7 @@
   "dependencies": {
     "@primer/components": "^13.3.1",
     "@primer/octicons-react": "^19.8.0",
-    "axios": "^1.6.2",
+    "axios": "^1.6.3",
     "github-api": "^3.4.0",
     "nth-check": "^2.1.1",
     "postcss": "^8.4.31",
